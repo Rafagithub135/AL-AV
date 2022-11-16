@@ -1,0 +1,4 @@
+/*copy data from an access table to a text file*/
+/*open the access table*/
+$access = new COM("ADB.Connection");
+$access->Open("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\inetpub\wwwroot\test.mdb;Persist Security Info=False");
